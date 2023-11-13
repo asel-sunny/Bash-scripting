@@ -1,0 +1,9 @@
+#!/bin/bash
+
+jsondata=curl -X POST \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $DO_TOKEN" \
+  -d '{"name":"auto-droplet","region":"nyc3","size":"s-1vcpu-1gb","image":"ubuntu-20-04-x64"}' \
+  "https://api.digitalocean.com/v2/droplets" 
+
+  echo $jsondata

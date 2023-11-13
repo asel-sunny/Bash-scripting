@@ -1,0 +1,21 @@
+2023-11-13 04:34:07.062 [info] 
+
+
+
+
+2023-11-13 04:34:07.062 [info] Extension host agent started.
+2023-11-13 04:34:07.065 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-11-13 04:34:07.124 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2023-11-13 04:34:07.220 [info] [127.0.0.1][4629f296][ManagementConnection] New connection established.
+2023-11-13 04:34:07.273 [info] [127.0.0.1][880501ee][ExtensionHostConnection] New connection established.
+2023-11-13 04:34:07.657 [info] [127.0.0.1][880501ee][ExtensionHostConnection] <3391> Launched Extension Host Process.
+2023-11-13 04:34:21.024 [info] [127.0.0.1][4629f296][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-13 04:34:21.089 [info] [127.0.0.1][880501ee][ExtensionHostConnection] <3391> Extension Host Process exited with code: 0, signal: null.
+2023-11-13 04:34:21.089 [info] Cancelling previous shutdown timeout
+2023-11-13 04:34:21.089 [info] Last EH closed, waiting before shutting down
+2023-11-13 04:34:24.459 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-11-13 04:34:24.459 [info] Cancelling previous shutdown timeout
+2023-11-13 04:34:24.844 [info] [127.0.0.1][64c2430a][ManagementConnection] New connection established.
+2023-11-13 04:34:24.911 [info] [127.0.0.1][e5698cdc][ExtensionHostConnection] New connection established.
+2023-11-13 04:34:24.923 [info] [127.0.0.1][e5698cdc][ExtensionHostConnection] <4123> Launched Extension Host Process.
+2023-11-13 04:39:24.460 [info] New EH opened, aborting shutdown

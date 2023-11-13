@@ -1,0 +1,1 @@
+echo $jsondata | jq ' .droplets[] | {name:.name, status:.status}' | grep "status"
