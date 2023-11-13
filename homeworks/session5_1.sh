@@ -9,6 +9,6 @@ jsondata=$(curl -X GET \
 
 #echo $jsondata | jq ' .droplets[] | .networks.v4[1].ip_address'
 
-for tt in $(echo $jsondata | jq ' .droplets[] | .networks.v4[1].ip_address'); do
+for tt in $(echo $jsondata | jq ' .droplets[] | .networks.v4[0].ip_address'); do
      echo $tt 
 done
